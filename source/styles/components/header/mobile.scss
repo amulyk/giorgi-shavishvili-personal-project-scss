@@ -1,0 +1,29 @@
+.header {
+
+    .header-container {
+        width: 285px;
+        min-height: 66px;
+
+        .main-menu {
+            width: 49px;
+            height: 34px;
+            margin-top: 0;
+            margin-right: 3px;
+            background-image: url(../../../images/header/menu-icon.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            a {
+                display: none;
+            }
+        }
+
+        .logo {
+            margin-left: 3px;
+
+            img {
+                width: 91px;
+            }
+        }
+    }
+}

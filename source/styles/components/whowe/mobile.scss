@@ -1,0 +1,96 @@
+
+.whowe {
+
+    .who-container {
+        width: 100%;
+        margin-top: 34px;
+        padding-top: 0;
+        padding-bottom: 77px;
+
+        h2 {
+            margin-bottom: 8px;
+            font-size: 27px;
+            word-spacing: normal;
+        }
+
+        .about-us {
+            display: block;
+            width: 88%;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-right: 0;
+            padding-left: 0;
+
+            div.about-img {
+                min-height: 200px;
+                text-align: center;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 205px;
+                margin-right: 0;
+            }
+
+            .about-text {
+
+                h3 {
+                    margin-top: 19px;
+                    margin-bottom: 11px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $color-6;
+                    font-size: 16px;
+                    line-height: 19px;
+                    word-spacing: normal;
+                }
+
+                p {
+                    margin-left: 2px;
+                    font-size: 13px;
+                    line-height: 23px;
+                }
+
+                .features {
+                    display: block;
+                    margin-top: 29px;
+                    margin-left: 0;
+
+                    .feature {
+                        margin-top: 28px;
+                        margin-bottom: 43px;
+
+                        &::before,
+                        &.place::before,
+                        &.like::before,
+                        &.mark::before {
+                            width: 17px;
+                            height: 17px;
+                            margin-top: 5px;
+                            margin-right: 13px;
+                            background: transparent url(/images/whowe/check.png) no-repeat;
+                        }
+
+                        &.mark {
+                            display: none;
+                        }
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        display: inline-block;
+                        margin-top: 46px;
+                        padding: 14px 31px;
+                        background: $color-4;
+                        color: $color-2;
+                        font-size: 13px;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

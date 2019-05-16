@@ -1,0 +1,36 @@
+.services {
+
+    .service-container {
+        width: 100%;
+        padding-top: 71px;
+        padding-bottom: 73px;
+
+        h2 {
+            margin-bottom: 11px;
+            font-size: 29px;
+        }
+
+        .mid-icon {
+            margin-bottom: 58px;
+            margin-left: 4px;
+        }
+
+        .service-items {
+            display: block;
+
+            .service-item {
+                background-position: 50% 58px, 50% 0;
+
+                &.people {
+                    margin-top: 74px;
+                    background-position: 50% 62px, 50% 0;
+                }
+
+                &.diagram {
+                    margin-top: 73px;
+                    background-position: 50% 62px, 50% 0;
+                }
+            }
+        }
+    }
+}
