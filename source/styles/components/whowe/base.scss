@@ -96,7 +96,7 @@
                             height: 63px;
                             margin-right: 28px;
                             border-radius: 50%;
-                            background: $color-7 url(../images/whowe/settings.png) no-repeat;
+                            background: $color-7 url(/images/whowe/settings.png) no-repeat;
                             background-position: 50%;
                         }
 
@@ -119,7 +119,7 @@
                         &.place {
 
                             &::before {
-                                background: $color-7 url(../images/whowe/location.png) no-repeat;
+                                background: $color-7 url(/images/whowe/location.png) no-repeat;
                                 background-position: 50%;
                             }
                         }
@@ -127,7 +127,7 @@
                         &.like {
 
                             &::before {
-                                background: $color-7 url(../images/whowe/heart.png) no-repeat;
+                                background: $color-7 url(/images/whowe/heart.png) no-repeat;
                                 background-position: 50%;
                             }
                         }
@@ -135,7 +135,7 @@
                         &.mark {
 
                             &::before {
-                                background: $color-7 url(../images/whowe/new.png) no-repeat;
+                                background: $color-7 url(/images/whowe/new.png) no-repeat;
                                 background-position: 50%;
                             }
                         }
