@@ -1,0 +1,31 @@
+.header {
+    background: $color-1;
+
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1173px;
+        min-height: 99px;
+        margin: 0 auto;
+
+        .main-menu {
+            display: flex;
+
+            a {
+                margin-right: 38.4px;
+                color: #FFFFFF;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: .2px;
+                list-style: none;
+                text-decoration: none;
+
+                &:last-child {
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
