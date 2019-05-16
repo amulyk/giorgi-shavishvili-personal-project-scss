@@ -1,3 +1,23 @@
 .header {
-    background: green;
+
+    .header-container {
+        width: 719px;
+        min-height: 112px;
+
+        .main-menu {
+            width: 58px;
+            height: 40px;
+            margin-top: 8px;
+            background-image: url(../../../images/header/menu-icon.png);
+            background-repeat: no-repeat;
+
+            a {
+                display: none;
+            }
+        }
+
+        .logo {
+            margin-top: -2px;
+        }
+    }
 }

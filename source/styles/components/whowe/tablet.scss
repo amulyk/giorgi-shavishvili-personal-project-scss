@@ -1,3 +1,73 @@
-.header {
-    background: green;
+
+.whowe {
+
+    .who-container {
+        width: 100%;
+        padding-top: 0;
+
+        h2 {
+            font-size: 28.8px;
+            word-spacing: normal;
+        }
+
+        .about-us {
+            display: block;
+            width: 94%;
+            margin: 0 auto;
+            padding-top: 54px;
+            padding-right: 0;
+            padding-left: 0;
+
+            img {
+                width: 100%;
+                max-height: 420px;
+                margin-right: 0;
+            }
+
+            .about-text {
+
+                h3 {
+                    margin-top: 31px;
+                    margin-bottom: 18px;
+                    padding-bottom: 22px;
+                    border-bottom: 1px solid $color-6;
+                    font-size: 25px;
+                    word-spacing: normal;
+                }
+
+                p {
+                    margin-left: 2px;
+                    font-size: 13px;
+                    line-height: 23px;
+                }
+
+                .features {
+                    display: block;
+                    margin-top: 63px;
+                    margin-left: 2px;
+
+                    .feature {
+                        margin-bottom: 20px;
+
+                        &::before {
+                            width: 17px;
+                            height: 17px;
+                            background: none;
+                            background-image: url(../../../images/whowe/check.png);
+                            background-repeat: no-repeat;
+                        }
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.services{
+    display: none;
 }

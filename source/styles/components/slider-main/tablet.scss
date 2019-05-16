@@ -1,3 +1,31 @@
-.header {
-    background: green;
+
+.main-slider {
+    min-height: 665px;
+
+    img {
+        min-height: 592px;
+    }
+
+    .main-slider-wrap {
+        top: 292px;
+        left: 374px;
+        width: 91%;
+
+        h3 {
+            font-size: 58px;
+        }
+
+        p {
+            font-size: 18.8px;
+        }
+
+        div {
+            top: -24px;
+            left: 8px;
+        }
+    }
+
+    .main-slider-arrows {
+        display: none;
+    }
 }
