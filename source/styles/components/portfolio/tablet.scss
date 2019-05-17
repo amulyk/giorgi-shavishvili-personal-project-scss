@@ -1,4 +1,7 @@
 .portfolio {
+    padding-top: 73px;
+    padding-right: 26px;
+    padding-left: 26px;
 
     h2 {
         font-size: 28px;
@@ -10,7 +13,7 @@
 
     .portfolio-items {
         display: grid;
-        grid-gap: 7px;
+        grid-gap: 20px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
@@ -19,12 +22,34 @@
             grid-column: span 1;
             height: 230px;
 
+            a {
+                width: 40px;
+                height: 40px;
+
+                &::before {
+                    width: 37px;
+                    height: 37px;
+                }
+            }
+
             &:last-child {
                 display: none;
             }
 
             .portfolio-hover {
-                margin-bottom: 50px;
+                margin-bottom: 32px;
+            }
+
+            .portfolio-text {
+                padding: 0;
+
+                h3 {
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 10px;
+                }
             }
         }
     }

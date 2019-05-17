@@ -1,8 +1,12 @@
 .main-slider {
     position: relative;
-    min-height: 761px;
+    min-height: 764px;
+    overflow: hidden;
 
     img {
+        position: absolute;
+        right: 0;
+        left: 0;
         width: 100%;
         max-height: 761px;
     }
@@ -54,13 +58,14 @@
             padding: 14px 3px;
             background: $color-4;
 
-            span {
+            a {
                 padding: 10px 30px;
                 border: 1px solid #FFFFFF;
                 color: #FFFFFF;
                 font-family: 'Raleway', sans-serif;
                 font-size: 13px;
                 font-weight: 700;
+                text-decoration: none;
             }
         }
     }
