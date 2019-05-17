@@ -1,0 +1,101 @@
+.portfolio {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .mid-icon {
+        margin-bottom: 64px;
+    }
+
+    .portfolio-items {
+        display: grid;
+        grid-gap: 7px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        width: 94%;
+        margin: 0 auto;
+
+        .col-1,
+        .col-2 {
+            grid-column: span 1;
+            height: 230px;
+
+            &:nth-child(5),
+            &:nth-child(6),
+            &:nth-child(7) {
+                display: none;
+            }
+
+            .portfolio-hover {
+                margin-bottom: 50px;
+            }
+
+            a {
+                display: inline-block;
+                width: 29px;
+                height: 28px;
+                margin-right: 11px;
+
+                &::before {
+                    content: '';
+                    display: flex;
+                    flex-shrink: 0;
+                    align-items: center;
+                    justify-content: center;
+                    width: 26px;
+                    height: 26px;
+                    margin-right: 28px;
+                    border: 2px solid $color-12;
+                    border-radius: 50%;
+                    background-position: 50%;
+                }
+
+                &:nth-child(1) {
+                    background: url(/images/portfolio/fb.png) no-repeat;
+                    background-position: 59% 58%;
+                }
+
+                &:nth-child(3) {
+                    display: inline-block;
+                    background: url(/images/portfolio/instagram.png) no-repeat;
+                    background-position: 59% 58%;
+                }
+
+                &:hover {
+                    border-radius: 50%;
+                    background: $color-12 url(/images/portfolio/fb.png) no-repeat;
+                    background-position: 59% 58%;
+                }
+
+                &:nth-child(2) {
+                    margin-right: 11px;
+                    background: url(/images/portfolio/twit.png) no-repeat;
+                    background-position: 59% 58%;
+
+                    &:hover {
+                        border-radius: 50%;
+                        background: $color-12 url(/images/portfolio/twit.png) no-repeat;
+                        background-position: 59% 58%;
+                    }
+                }
+
+                &:last-child::before {
+                    background: url(/images/portfolio/twit.png) no-repeat;
+                    background-position: 59% 58%;
+                }
+            }
+
+            .portfolio-text {
+
+                h3 {
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

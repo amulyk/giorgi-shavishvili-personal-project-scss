@@ -1,0 +1,31 @@
+.portfolio {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .mid-icon {
+        margin-bottom: 64px;
+    }
+
+    .portfolio-items {
+        display: grid;
+        grid-gap: 7px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .col-1,
+        .col-2 {
+            grid-column: span 1;
+            height: 230px;
+
+            &:last-child {
+                display: none;
+            }
+
+            .portfolio-hover {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}

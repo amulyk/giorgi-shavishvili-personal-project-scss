@@ -1,0 +1,39 @@
+.contact_us {
+    margin-top: 98px;
+
+    h2 {
+        margin-bottom: 5px;
+        color: $color-11;
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: center;
+        word-spacing: -1px;
+    }
+
+    .mid-icon {
+        text-align: center;
+
+        span {
+            position: relative;
+
+            img {
+                position: relative;
+                z-index: 99;
+                padding-right: 9px;
+                padding-left: 8px;
+                background: $color-2;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 5px;
+                left: -37px;
+                width: 110px;
+                height: 1px;
+                background: $color-8;
+            }
+        }
+    }
+}
