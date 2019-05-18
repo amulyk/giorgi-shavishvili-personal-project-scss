@@ -24,11 +24,23 @@
                 &.people {
                     margin-top: 74px;
                     background-position: 50% 62px, 50% 0;
+
+                    &:hover {
+                        background-position: 50% 60px, 50% 0;
+                    }
                 }
 
                 &.diagram {
                     margin-top: 73px;
                     background-position: 50% 62px, 50% 0;
+
+                    &:hover {
+                        background-position: 50% 59px, 50% 0;
+                    }
+                }
+
+                &:hover {
+                    background-position: 50% 59px, 50% 0;
                 }
             }
         }

@@ -35,12 +35,24 @@
                     margin-top: 37px;
                     padding-top: 174px;
                     background-position: 50% 62px, 50% 0;
+
+                    &:hover {
+                        background-position: 50% 60px, 50% 0;
+                    }
                 }
 
                 &.diagram {
                     margin-top: 40px;
                     padding-top: 173px;
                     background-position: 50% 62px, 50% 0;
+
+                    &:hover {
+                        background-position: 50% 59px, 50% 0;
+                    }
+                }
+
+                &:hover {
+                    background-position: 50% 59px, 50% 0;
                 }
             }
         }

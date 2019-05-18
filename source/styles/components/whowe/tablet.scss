@@ -47,11 +47,14 @@
                     margin-left: 2px;
                     font-size: 13px;
                     line-height: 23px;
+
+                    &.main-p {
+                        margin-bottom: 59px;
+                    }
                 }
 
                 .features {
                     display: block;
-                    margin-top: 59px;
                     margin-left: 2px;
 
                     .feature {

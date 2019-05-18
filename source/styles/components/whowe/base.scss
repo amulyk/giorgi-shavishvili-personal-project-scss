@@ -73,6 +73,10 @@
                     font-family: 'Open Sans', sans-serif;
                     font-size: 14px;
                     line-height: 27px;
+
+                    &.main-p {
+                        margin-bottom: 47px;
+                    }
                 }
 
                 .features {
@@ -81,7 +85,6 @@
                     grid-row-gap: 51px;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);
-                    margin-top: 47px;
 
                     .feature {
                         display: flex;

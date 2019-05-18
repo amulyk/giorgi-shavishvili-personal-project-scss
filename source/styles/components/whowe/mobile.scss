@@ -52,11 +52,14 @@
                     margin-left: 2px;
                     font-size: 13px;
                     line-height: 23px;
+
+                    &.main-p {
+                        margin-bottom: 29px;
+                    }
                 }
 
                 .features {
                     display: block;
-                    margin-top: 29px;
                     margin-left: 0;
 
                     .feature {
